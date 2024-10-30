@@ -1,0 +1,94 @@
+header h1{
+    margin: 0;
+    background-color: #312f2f;
+    font-size: 100px;
+    line-height: 120px;
+}
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+    color: #ffffff;
+}
+nav{
+    background-color: #6332be;
+
+    padding: 50px;
+    display: flex; /* Usa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+
+}
+
+.nav a:hover{
+    background-color: #4b00fa;
+}
+
+a{
+    
+    color:#ffffff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 280px; /* Espacio moderado a los lados */
+    font-size: 25px;
+}
+
+main {
+    display: flex; /* Usa Flexbox para alinear los divs */
+    justify-content: flex-start; /* Alinea al inicio */
+    padding: 20px; /* Espaciado interno */
+    align-items: flex-start;
+}
+
+.image-container {
+    flex: 0 0 700px; /* Ancho fijo para la imagen, ajusta según necesites */
+ /* Espacio moderado entre la imagen y el texto */
+ padding-right: 5%;
+}
+
+.image-container img {
+    max-width: 100%; /* Asegúrate de que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
+    padding-right: 50%;
+}
+
+.text-container {
+    flex: 1; /* Toma el espacio restante */
+    text-align: justify;
+    width: 70%;
+    padding-right: 8%;
+    padding-left: 3%;
+}
+
+h3{
+    color: #ffffff;
+}
+
+body{
+    background-color: #312f2f;
+    margin: 0;
+}
+
+p{
+    color: #f8f8f8;
+    font-size: 20px; 
+}
+
+footer{
+    background-color: #6332be;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    padding: 30px;
+}
+
+.footer-content p{
+    color: #ffffff;
+}
+
+.footer-content h3{
+    color: #ffffff;
+}
