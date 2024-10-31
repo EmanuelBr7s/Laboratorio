@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cálculos y Verificación</title>
+    <link rel="stylesheet" href="/src/styles/a.css">
+</head>
+<body>
+    <form id="miFormulario" method="post">
+        <div>
+            <label>Valor 1:</label>
+            <input type="number" id="valor1" autofocus placeholder="Ingrese el valor" required>
+            <button type="button" onclick="limpiar();">Limpiar campos</button>
+
+            <br><br>
+
+            <label>Valor 2:</label>
+            <input type="number" id="valor2" placeholder="Ingrese otro valor" required>
+
+            <br><br>
+
+            <button type="button" onclick="calcular('sumar');">Sumar</button>
+            <button type="button" onclick="calcular('restar');">Restar</button>
+            <button type="button" onclick="calcular('multiplicar');">Multiplicar</button>
+            <button type="button" onclick="calcular('division');">Dividir</button>
+            <button type="button" onclick="comparar();">Comparar</button>
+
+            <p>El resultado de la operación es: <span id="result"></span></p>
+            <p>Resultado de la comparación: <span id="comparacion"></span></p>
+        </div>
+    </form>
+
+    <form id="mi" method="post">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+            <br><br>
+            
+            <label>Edad:</label>
+            <input type="number" id="edad" placeholder="Ingrese su edad" required>
+
+            <br><br>
+
+            <label>¿Eres estudiante?:</label>
+            <select id="estudiante">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <br><br>
+
+            <button type="button" onclick="verificar();">Verificar</button>
+            <button type="button" onclick="limpiar1();">Limpiar campos</button>
+
+            <p id="resultadoEdad"></p>
+            <p id="resultadoDescuento"></p>
+            <p id="resultadoConducir"></p>
+        </div>
+    </form>
+
+    <script type="text/javascript" src="/src/scripts/script.js"></script>
+</body>
+</html>
+

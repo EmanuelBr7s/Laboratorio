@@ -1,0 +1,38 @@
+body {
+    background-color: #f9f3e3; 
+    font-family: Arial, sans-serif;
+    color: #000000; 
+    padding: 20px;
+}
+
+form {
+    background-color: #fbe5c0; 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+button {
+    background-color: #e0a45d; /* Botones con color cálido */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px; /* Espaciado entre botones */
+}
+
+button:hover {
+    background-color: #d5943b; /* Color más oscuro al pasar el mouse */
+}
+
+p {
+    margin-top: 10px; /* Espaciado superior */
+}
